@@ -17,6 +17,7 @@
 		BA940C5E1E265E38001F7CC3 /* custom.json in Resources */ = {isa = PBXBuildFile; fileRef = BA940C5C1E265E38001F7CC3 /* custom.json */; };
 		BA940C5F1E265E38001F7CC3 /* dark.json in Resources */ = {isa = PBXBuildFile; fileRef = BA940C5D1E265E38001F7CC3 /* dark.json */; };
 		BA940C631E2664FC001F7CC3 /* default.json in Resources */ = {isa = PBXBuildFile; fileRef = BA940C621E2664FC001F7CC3 /* default.json */; };
+		BA940C651E266AE9001F7CC3 /* paper.json in Resources */ = {isa = PBXBuildFile; fileRef = BA940C641E266AE9001F7CC3 /* paper.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		BA940C5C1E265E38001F7CC3 /* custom.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = custom.json; path = "custom-style-google-map/custom.json"; sourceTree = "<group>"; };
 		BA940C5D1E265E38001F7CC3 /* dark.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = dark.json; path = "custom-style-google-map/dark.json"; sourceTree = "<group>"; };
 		BA940C621E2664FC001F7CC3 /* default.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = default.json; path = "custom-style-google-map/default.json"; sourceTree = "<group>"; };
+		BA940C641E266AE9001F7CC3 /* paper.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = paper.json; path = "custom-style-google-map/paper.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		BA940C3C1E2655E2001F7CC3 = {
 			isa = PBXGroup;
 			children = (
+				BA940C641E266AE9001F7CC3 /* paper.json */,
 				BA940C621E2664FC001F7CC3 /* default.json */,
 				BA940C5C1E265E38001F7CC3 /* custom.json */,
 				BA940C5D1E265E38001F7CC3 /* dark.json */,
@@ -165,6 +168,7 @@
 			files = (
 				BA940C531E2655E2001F7CC3 /* LaunchScreen.storyboard in Resources */,
 				BA940C5F1E265E38001F7CC3 /* dark.json in Resources */,
+				BA940C651E266AE9001F7CC3 /* paper.json in Resources */,
 				BA940C631E2664FC001F7CC3 /* default.json in Resources */,
 				BA940C501E2655E2001F7CC3 /* Assets.xcassets in Resources */,
 				BA940C5E1E265E38001F7CC3 /* custom.json in Resources */,

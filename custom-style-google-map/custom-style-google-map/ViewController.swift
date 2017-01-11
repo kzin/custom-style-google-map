@@ -27,8 +27,8 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var mapView: GMSMapView!
     
-    let lat = -1.4503799
-    let long = -48.4761371
+    let lat = -23.562573
+    let long = -46.654952
     let zoom: Float = 13
     
     override func viewDidLoad() {
@@ -53,8 +53,8 @@ class ViewController: UIViewController {
     func addMarker() {
         let marker = GMSMarker()
         marker.position = CLLocationCoordinate2DMake(lat, long)
-        marker.title = "Belém"
-        marker.snippet = "Pará"
+        marker.title = "Av. Paulista"
+        marker.snippet = "São Paulo"
         marker.map = mapView
     }
     
